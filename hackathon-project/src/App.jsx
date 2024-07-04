@@ -6,7 +6,8 @@ import Navbar from './components/navbar/Navbar';
 import HomePage from './pages/HomePage';
 import FormPage from './pages/FormPage';
 import MapPage from './pages/MapPage';
-import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 
 const App = () => {
   return (
@@ -17,10 +18,12 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />            
             <Route path="/form" element={<FormPage />} />
-            <Route path="/map" element={<MapPage />} /> {/* Ruta para MapPage */}
-          </Routes>
+            <Route path="/map" element={<MapPage />} />
+            </Routes>
+        
         </main>
       </div>
+
     </Router>
   );
 }
