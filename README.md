@@ -25,7 +25,7 @@ EcoVoyagers es una aplicación web que permite a los usuarios planificar sus via
 
 ### Requisitos
 - **Frontend**: Desarrollado con VSC.
-- **Backend**: Desarrollado en Java.
+- **Backend**: Desarrollado en Java, mediante intellij, mySQLphp, Xampp y Postman.
 - **Base de Datos**: Accesible únicamente desde el backend.
 - **Planificación**: Jira.
 - **Repositorio de Código**: GitHub.
@@ -65,5 +65,8 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 Agradecemos a los siguientes contribuidores por su trabajo en este proyecto:
 - Nombre del Contribuidor 1
 - Nombre del Contribuidor 2
-- ...
+-
+-
+-Isabel Gutiérrez Vázquez
+-Miguel Iván Angel
 
