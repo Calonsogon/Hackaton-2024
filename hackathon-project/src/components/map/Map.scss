@@ -42,10 +42,6 @@ path {
   stroke-width: 1;
 }
 
-/* path:hover {
-  fill: #f7a40c;
-} */
-
 button {
   display: inline-block;
   padding: 10px 20px;
@@ -65,7 +61,6 @@ button:focus {
   outline: none;
 }
 
-// Map.scss
 .highlight {
-  fill: #f7a40c; // O el color que prefieras para resaltar
+  fill: #f7a40c;
 }

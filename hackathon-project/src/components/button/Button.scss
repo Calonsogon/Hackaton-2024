@@ -1,3 +1,22 @@
-#button {
-  background-color: #be1704;
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+button:hover {
+  background-color: #f7a40c;
+}
+
+button:focus {
+  border-color: #9c9c9c;
+  outline: none;
+}
+
+.highlight {
+  fill: #f7a40c;
 }
