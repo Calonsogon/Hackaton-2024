@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import FormPage from './pages/FormPage';
+import MapPage from './pages/MapPage';
 
 const App = () => {
   return (
@@ -15,9 +16,12 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/form" element={<FormPage />} />
-          </Routes>
+            <Route path="/map" element={<MapPage />} />
+            </Routes>
+        
         </main>
       </div>
+
     </Router>
   );
 }
