@@ -4,7 +4,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import HomePage from './pages/HomePage';
-import FormPage from './pages/FormPage';
+import FormPage from './pages/formPage/FormPage';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
