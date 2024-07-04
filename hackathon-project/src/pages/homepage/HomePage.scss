@@ -1,0 +1,12 @@
+.background-page {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 90vh; /* Ocupa toda la altura visible del viewport */
+  background: linear-gradient(
+    to left,
+    rgba(250, 248, 81, 0.3),
+    rgba(245, 239, 73, 0.3),
+    rgba(252, 245, 160, 0.3)
+  );
+}
