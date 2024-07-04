@@ -1,0 +1,12 @@
+#lema {
+  font-size: 80px;
+  color: #be1704;
+}
+@media only screen and (max-width: 600px) {
+  #lema {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
