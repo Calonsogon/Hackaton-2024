@@ -66,5 +66,6 @@ Agradecemos a los siguientes contribuidores por su trabajo en este proyecto:
 - https://github.com/noemipeteilh
 - https://github.com/Oscarss15
 - https://github.com/IsabelGV1985
+- https://github.com/Adrianaortiz00
 - Miguel Iván Angel
 
