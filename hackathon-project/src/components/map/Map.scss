@@ -1,27 +1,62 @@
 // styles/Map.scss
-
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+}
 .map-body { 
-    background: linear-gradient(to left, rgba(250, 248, 81, 0.3), rgba(245, 239, 73, 0.3), rgba(252, 245, 160, 0.3));
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-
-
-svg {
-       
+    height: 100%; 
+    width: 100%; 
+    background: linear-gradient(to left, rgba(250, 248, 81, 0.3), rgba(245, 239, 73, 0.3), rgba(252, 245, 160, 0.3));
+}
+.container-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+    height: 100%; 
+    margin-bottom: 20px;
+}
+    
+    svg {
+        margin-left: 200px;
         width: 100%; 
         height: auto;
-      
-     
     }
 
-  path {
-    fill: aqua;
-    stroke: #ffffff; 
-    stroke-width: 1; 
-}
-path:hover {
-    fill: blue; // Cambia el color de relleno al color deseado en hover
-}
-}
+    path {
+        fill: #efecec;
+        stroke: #333; 
+        stroke-width: 1;
+    }
+    
+    path:hover {
+        fill: #f7a40c; 
+    }
+
+    button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+
+    button:hover {
+        background-color: #f7a40c;
+    }
+    
+    button:focus {
+        border-color: #9c9c9c;
+        outline: none;
+    }
+    
+  
+   
