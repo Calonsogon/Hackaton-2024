@@ -4,7 +4,8 @@
 
 - [📋 Descripción del Proyecto](#-descripción-del-proyecto)
 - [🚀 Funcionalidades Principales](#-funcionalidades-principales)
-- [🛠️ Requisitos y Herramientas](#️-requisitos-y-herramientas)
+- [🛠️ Requisitos, Herramientas y Funcionalidades](#️-requisitos-herramientas-y-funcionalidades)
+- [🖼️ Elementos Visuales](#elementos-visuales)
 - [💻 Uso de la Aplicación](#-uso-de-la-aplicación)
 - [🔧 Contribución](#-contribución)
 - [👥 Contribuidores](#-contribuidores)
@@ -35,12 +36,6 @@ EcoVoyagers es una aplicación web que permite a los usuarios planificar sus via
 3. **CRUD**: Permitir a los usuarios gestionar datos de los viajes (crear, visualizar, editar y eliminar).
 4. **Tests Unitarios**: Garantizar la calidad y el correcto funcionamiento de la aplicación.
 
-### 👥 Contribuidores
-
-Agradecemos a los siguientes contribuidores por su trabajo en este proyecto:
-- Nombre del Contribuidor 1
-- Nombre del Contribuidor 2
-- ...
 
 ### 🖼️ Elementos Visuales
 
@@ -65,4 +60,10 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 3. Realiza los cambios necesarios y realiza commits con mensajes claros.
 4. Envía un pull request explicando los cambios realizados.
 
+### 👥 Contribuidores
+
+Agradecemos a los siguientes contribuidores por su trabajo en este proyecto:
+- Nombre del Contribuidor 1
+- Nombre del Contribuidor 2
+- ...
 
