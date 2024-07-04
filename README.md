@@ -40,7 +40,13 @@ EcoVoyagers es una aplicación web que permite a los usuarios planificar sus via
 
 A continuación se muestran algunos elementos visuales de la aplicación:
 
-![Imagen 1](url_a_imagen1)
+![Image20240704193049](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/1c304fc7-374e-40c7-8dec-8a3d602759e8)
+
+![Image20240704193045](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/739c4e8c-b152-4abf-99eb-78f30d48fe73)
+
+![Image20240704193026](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/2cffea76-6fe9-4daa-bb6b-06c8f8eede86)
+
+
 _Descripción de la Imagen 1_
 
 ![Imagen 2](url_a_imagen2)
