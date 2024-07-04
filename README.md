@@ -10,18 +10,18 @@
 - [🔧 Contribución](#-contribución)
 - [👥 Contribuidores](#-contribuidores)
 
-## Descripción del Proyecto
+## 📋 Descripción del Proyecto
 
 EcoVoyagers es una aplicación web que permite a los usuarios planificar sus viajes dentro de las comunidades autónomas españolas, eligiendo la fecha y el tipo de turismo que desean realizar. La aplicación proporciona predicciones meteorológicas y sugiere qué llevar en la maleta en función del clima previsto.
 
-## Funcionalidades Principales
+## 🚀 Funcionalidades Principales
 
 - **Obtención de Datos**: Utilización de una API para obtener datos meteorológicos y volcarlos en nuestra base de datos.
 - **Arquitectura Independiente**: La aplicación consta de un frontend y un backend independientes que se comunican entre sí, con una base de datos accesible únicamente desde el backend.
 - **CRUD Completo**: Funcionalidad para crear, visualizar, editar y eliminar datos relacionados con los viajes.
 - **Tests Unitarios**: Implementación de tests unitarios tanto en el frontend como en el backend para garantizar el correcto funcionamiento de la aplicación.
 
-## Requisitos, Herramientas y Funcionalidades
+## 🛠️ Requisitos, Herramientas y Funcionalidades
 
 ### Requisitos
 - **Frontend**: Desarrollado con VSC.
