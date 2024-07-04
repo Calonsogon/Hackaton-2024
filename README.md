@@ -19,7 +19,7 @@ EcoVoyagers es una aplicación web que permite a los usuarios planificar sus via
 - **Obtención de Datos**: Utilización de una API para obtener datos meteorológicos y volcarlos en nuestra base de datos.
 - **Arquitectura Independiente**: La aplicación consta de un frontend y un backend independientes que se comunican entre sí, con una base de datos accesible únicamente desde el backend.
 - **CRUD Completo**: Funcionalidad para crear, visualizar, editar y eliminar datos relacionados con los viajes.
-- **Tests Unitarios**: Implementación de tests unitarios tanto en el frontend como en el backend para garantizar el correcto funcionamiento de la aplicación.
+
 
 ## 🛠️ Requisitos, Herramientas y Funcionalidades
 
@@ -27,7 +27,6 @@ EcoVoyagers es una aplicación web que permite a los usuarios planificar sus via
 - **Frontend**: Desarrollado con VSC.
 - **Backend**: Desarrollado en Java, mediante intellij, mySQLphp, Xampp y Postman.
 - **Base de Datos**: Accesible únicamente desde el backend.
-- **Planificación**: Jira.
 - **Repositorio de Código**: GitHub.
 
 ### Funcionalidades Esperadas
@@ -63,10 +62,10 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 ### 👥 Contribuidores
 
 Agradecemos a los siguientes contribuidores por su trabajo en este proyecto:
-- Nombre del Contribuidor 1
+- https://github.com/Calonsogon
 - Nombre del Contribuidor 2
 -
 -
--Isabel Gutiérrez Vázquez
--Miguel Iván Angel
+- Isabel Gutiérrez Vázquez
+- Miguel Iván Angel
 
