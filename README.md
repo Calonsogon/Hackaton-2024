@@ -37,7 +37,7 @@ EcoVoyagers es una aplicación web que permite a los usuarios planificar sus via
 4. **Tests Unitarios**: Garantizar la calidad y el correcto funcionamiento de la aplicación.
 
 
-### 🖼️ Elementos Visuales
+## 🖼️ Elementos Visuales
 
 A continuación se muestran algunos elementos visuales de la aplicación:
 
