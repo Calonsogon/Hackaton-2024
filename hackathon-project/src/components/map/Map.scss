@@ -1,0 +1,27 @@
+// styles/Map.scss
+
+.map-body { 
+    background: linear-gradient(to left, rgba(250, 248, 81, 0.3), rgba(245, 239, 73, 0.3), rgba(252, 245, 160, 0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+
+svg {
+       
+        width: 100%; 
+        height: auto;
+      
+     
+    }
+
+  path {
+    fill: aqua;
+    stroke: #ffffff; 
+    stroke-width: 1; 
+}
+path:hover {
+    fill: blue; // Cambia el color de relleno al color deseado en hover
+}
+}
