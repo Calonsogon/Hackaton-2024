@@ -4,7 +4,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import HomePage from './pages/HomePage'; 
+
+import HomePage from './pages/HomePage';
+
 import FormPage from './pages/formPage/FormPage';
 import MapPage from './pages/MapPage';
 
@@ -17,7 +19,8 @@ const App = () => {
         <Navbar />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+
+            <Route path="/" element={<HomePage />} />            
 
             <Route path="/form" element={<FormPage />} />
             <Route path="/map" element={<MapPage />} />
