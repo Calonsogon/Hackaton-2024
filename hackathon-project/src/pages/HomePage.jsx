@@ -1,16 +1,25 @@
-
-
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import "./homepage/HomePage.scss";
+import Welcome from "../components/welcome/Welcome";
+import Logo from "../components/logo/Logo";
+import Lema from "../components/lema/Lema";
+import Button from "../components/button/Button";
 
 const HomePage = () => {
   return (
-    <div className="container mx-auto mt-8">
-      <h2>Bienvenida a nuestro proyecto</h2>
-      <p>Contenido de bienvenida...</p>
-      <Link to="/form" className="btn">Ir al Formulario</Link>
+    <div className="background-page">
+      <div id="containerwelcome">
+        <Welcome></Welcome>
+        <Logo></Logo>
+      </div>
+      <div id="containerLema">
+        <Lema></Lema>
+      </div>
+      <div id="containerButton">
+        <Button></Button>
+      </div>
     </div>
   );
-}
+};
 
 export default HomePage;
