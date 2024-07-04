@@ -1,15 +1,18 @@
 import "./Button.scss";
+import { Link } from "react-router-dom";
 
 function AddButtonHome() {
   return (
-    <button
-      type="button"
-      id="button"
-      className="btn btn-lg btn-primary"
-      disabled
-    >
-      Ir al formulario
-    </button>
+    <Link to="/Form">
+      <button
+        type="button"
+        id="button"
+        className="btn btn-lg btn-primary"
+        disabled
+      >
+        Ir al formulario
+      </button>
+    </Link>
   );
 }
 
