@@ -1,0 +1,52 @@
+$color_1: #be1704;
+$color_2: #ef3620;
+$font-family_1: Verdana, Geneva, Tahoma, sans-serif;
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: -webkit-linear-gradient(left, #fdfc8b, #faf851, #f5ef49, #fcf5a0);
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.5);
+  height: 5.5em;
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+
+    .navbar-logo {
+      width: 8em;
+      max-width: 8em;
+      height: auto;
+    }
+
+    .logo-text {
+      font-size: 1.8rem;
+      color: $color_1;
+      font-family: $font-family_1;
+      font-weight: bold;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      margin-right: 1.25em;
+
+      .nav-link {
+        color: $color_1;
+        font-family: $font-family_1;
+        font-size: 1.2rem;
+        font-weight: bold;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          color: $color_2;
+        }
+      }
+    }
+  }
+}
+
+

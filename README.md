@@ -42,9 +42,12 @@ A continuación se muestran algunos elementos visuales de la aplicación:
 ![Image20240704193049](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/8d0f1b5c-71c2-406e-a94e-1bc8baf8d56c)
 
 
-![Image20240704193045](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/e666d0a5-48d6-42da-9302-dab6ca8819aa)
+![Image20240704193049](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/1c304fc7-374e-40c7-8dec-8a3d602759e8)
 
-![Image20240704193026](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/6cd3531b-b133-4d58-8d03-91daf22b547e)
+![Image20240704193045](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/739c4e8c-b152-4abf-99eb-78f30d48fe73)
+
+![Image20240704193026](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/2cffea76-6fe9-4daa-bb6b-06c8f8eede86)
+
 
 ## 💻 Uso de la Aplicación
 
