@@ -63,8 +63,8 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 Agradecemos a los siguientes contribuidores por su trabajo en este proyecto:
 - https://github.com/Calonsogon
-- Nombre del Contribuidor 2
--
+- https://github.com/noemipeteilh
+-https://github.com/Oscarss15
 -
 - Isabel Gutiérrez Vázquez
 - Miguel Iván Angel
