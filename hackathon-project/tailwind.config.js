@@ -7,7 +7,15 @@ export default {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+
+
+
+
+
+
+      
+    },
   },
   plugins: [],
 }
