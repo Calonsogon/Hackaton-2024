@@ -1,72 +1,52 @@
 import React, { useState } from 'react';
+import SelectDonde from '../components/form/SelectDonde';
+import InputCuando from '../components/form/InputCuando';
+import InputAque from '../components/form/InputAque';
 
 const FormPage = () => {
   const [formData, setFormData] = useState({
-    nombre: 'Juan Pérez',
-    email: 'juan.perez@example.com',
-    mensaje: 'Hola, esto es un mensaje predeterminado.'
+    Donde: '', // Dejamos vacío para que el usuario seleccione
+    Cuando: '',
+    Aque: ''
   });
 
+  const handleDondeChange = (value) => {
+    setFormData((prevState) => ({
+      ...prevState,
+      Donde: value
+    }));
+  }
+
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
+    const { id, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [id]: value
+    }));
   }
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes manejar la lógica para enviar los datos del formulario
-    console.log(formData);
-    // Resetear el formulario después del envío (opcional)
+    // Aquí puedes manejar la lógica para enviar los datos del formulario a la base de datos
+    console.log('Enviando datos:', formData);
+    // Aquí podrías implementar la lógica para enviar los datos a tu API o base de datos
+    // resetear el formulario después del envío (opcional)
     setFormData({
-      nombre: '',
-      email: '',
-      mensaje: ''
+      Donde: '',
+      Cuando: '',
+      Aque: ''
     });
   }
 
   return (
-    <div className="container mx-auto mt-8">
-      <div className="form-container">
-        <h2>Formulario</h2>
-        <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label>Nombre:</label>
-            <input 
-              type="text" 
-              name="nombre"
-              value={formData.nombre}
-              onChange={handleChange}
-              className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:border-blue-500"
-            />
-          </div>
-          <div className="form-group">
-            <label>Email:</label>
-            <input 
-              type="email" 
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:border-blue-500"
-            />
-          </div>
-          <div className="form-group">
-            <label>Mensaje:</label>
-            <textarea 
-              name="mensaje"
-              value={formData.mensaje}
-              onChange={handleChange}
-              className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:border-blue-500"
-              rows="5"
-            ></textarea>
-          </div>
-          <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none">
-            Enviar
-          </button>
-        </form>
-      </div>
+    <div className="container ">
+      <h1 className="text-center">¿Nos vamos?</h1>
+      <form onSubmit={handleSubmit}  className='m-5'>
+        <SelectDonde value={formData.Donde} onChange={handleDondeChange} />
+        <InputCuando value={formData.Cuando} onChange={handleChange} />
+        <InputAque value={formData.Aque} onChange={handleChange} />
+        <button type="submit" className="btn btn-secondary">Enviar</button>
+      </form>
     </div>
   );
 }
