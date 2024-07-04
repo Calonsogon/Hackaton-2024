@@ -47,10 +47,6 @@ A continuación se muestran algunos elementos visuales de la aplicación:
 ![Image20240704193026](https://github.com/Calonsogon/Hackaton-2024/assets/169152677/2cffea76-6fe9-4daa-bb6b-06c8f8eede86)
 
 
-_Descripción de la Imagen 1_
-
-![Imagen 2](url_a_imagen2)
-_Descripción de la Imagen 2_
 
 ## 💻 Uso de la Aplicación
 
