@@ -1,19 +1,19 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 const SelectDonde = ({ value, onChange }) => {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   const options = [
-    { id: "1", label: "Andalucía" },
-    { id: "2", label: "Aragón" },
-    { id: "3", label: "Principado de Asturias" },
-    { id: "4", label: "Islas Baleares" },
-    { id: "5", label: "Canarias" },
-    { id: "6", label: "Cantabria" },
-    { id: "7", label: "Castilla-La Mancha" },
-    { id: "8", label: "Castilla y León" },
-    { id: "9", label: "Cataluña" },
+    { id: "01", label: "Andalucía" },
+    { id: "02", label: "Aragón" },
+    { id: "03", label: "Principado de Asturias" },
+    { id: "04", label: "Islas Baleares" },
+    { id: "05", label: "Canarias" },
+    { id: "06", label: "Cantabria" },
+    { id: "07", label: "Castilla-La Mancha" },
+    { id: "08", label: "Castilla y León" },
+    { id: "09", label: "Cataluña" },
     { id: "10", label: "Comunidad Valenciana" },
     { id: "11", label: "Extremadura" },
     { id: "12", label: "Galicia" },
@@ -25,12 +25,12 @@ const SelectDonde = ({ value, onChange }) => {
     { id: "18", label: "Ceuta" },
     { id: "19", label: "Melilla" },
   ];
-
+  
   const handleChange = (event) => {
     const selectedValue = event.target.value;
     onChange(selectedValue);
-    navigate(`/map?region=${selectedValue}`);
-  };
+    //navigate(`/map?region=${selectedValue}`);
+  }; 
 
   return (
     <div className="form-group mb-3">

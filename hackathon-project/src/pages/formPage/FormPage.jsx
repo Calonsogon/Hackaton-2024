@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 import SelectDonde from "../../components/form/selectDonde/SelectDonde";
 import InputCuando from "../../components/form/inputCuando/InputCuando";
 import SelectDondeCiudad2 from "../../components/form/selectDondeCiudad/SelectDondeCiudad";
@@ -14,7 +15,7 @@ const FormPage = () => {
     Aque: "",
   });
 
-  const [weatherData, setWeatherData] = useState(null);
+  const navigate = useNavigate();
 
   const handleDondeChange = (value) => {
     setFormData((prevState) => ({
@@ -45,8 +46,10 @@ const FormPage = () => {
       const response = await axios.get(
         `http://api.waqi.info/feed/${formData.DondeCiudad}/?token=2245d64e0eaae513bf3928eaf4aa14cc079dc85e`
       );
-      setWeatherData(response.data.data);
-      console.log("Weather data:", response.data.data);
+
+      const weatherData = response.data.data;
+      console.log("Weather data:", weatherData);
+      navigate(`/map?region=${formData.Donde}`, { state: { weatherData } });
     } catch (error) {
       console.error("Error fetching weather data:", error);
     }
@@ -76,14 +79,6 @@ const FormPage = () => {
             Enviar
           </button>
         </form>
-        {weatherData && (
-          <div className="weather-info">
-            <h2>Información del tiempo:</h2>
-            <p>Índice de calidad del aire: {weatherData.aqi}</p>
-            <p>Dominante contaminante: {weatherData.dominentpol}</p>
-            {/* Muestra más datos del clima aquí según lo que necesites */}
-          </div>
-        )}
       </div>
     </div>
   );
